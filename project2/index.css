@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.namecolor{
+    width: 300px;
+    height: 100px;
+    border: 1px solid cadetblue;
+    text-align: center;
+    line-height: 100px;
+    font-size: 21px;
+    background-color: cadetblue;
+    color: aliceblue;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.namecolor span:nth-child(2){
+    font-size: 24px;
+    color: chocolate;
+}
+.changecolor button{
+    width: 100px;
+    height: 40px;
+    margin: 20px 100px;
+    outline: none;
+    border: 1px solid #eee;
+    text-transform: uppercase;
+    color: #00000099;
+    background-color: #eee;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.changecolor button:hover{
+    background: rgb(223, 223, 223);
+}
